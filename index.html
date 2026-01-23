@@ -12,7 +12,6 @@
   <header class="top-nav">
     <div class="nav-inner">
       <div class="brand">Portfolio</div>
-
       <ul class="nav-links">
         <li><a href="#home">Home</a></li>
         <li><a href="#projects">Projects</a></li>
@@ -21,7 +20,6 @@
         <li><a href="resume.pdf" target="_blank">Resume</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-
       <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
     </div>
   </header>
@@ -32,21 +30,17 @@
       <div class="hero-left">
         <h3 class="hello">Hello, I am</h3>
         <h1 class="name-static">Nikita Solanki</h1>
-
         <h2 class="slide-container">
           <span id="slide-text"></span><span class="cursor">|</span>
         </h2>
-
         <p class="hero-sub">
           I build modern UI, responsive layouts and smooth web experiences using HTML, CSS and JavaScript.
         </p>
-
         <div class="cta">
           <a href="mailto:solankinikita569@gmail.com" class="btn primary">Hire Me</a>
           <a href="#projects" class="btn outline">Projects</a>
           <a href="resume.pdf" class="btn outline" download>Download CV</a>
         </div>
-
         <div class="socials">
           <a href="https://www.linkedin.com/in/nikita-solanki-1781a9365" target="_blank">
             <img class="social-icon" src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" alt="LinkedIn">
@@ -60,10 +54,9 @@
         </div>
       </div>
 
-      <!-- RIGHT SIDE IMAGE (FIXED) -->
       <div class="hero-center">
         <div class="neon-ring" aria-hidden="true">
-          <img src="profile.jpg" alt="Nikita Solanki" class="profile" />
+          <img src="profile.jpg/image.jpg" alt="Nikita Solanki" class="profile" />
         </div>
       </div>
     </section>
@@ -93,7 +86,7 @@
       <h2 class="section-title">Education</h2>
       <div class="education-grid">
         <div class="education-card">
-          <h3>MCA</h3>
+          <h3>MCA (Master of Computer Applications)</h3>
           <p>Chameli Devi Group of Institute</p>
           <span>2024–2026</span>
         </div>
@@ -107,39 +100,42 @@
     </section>
 
     <!-- EXPERIENCE -->
-    <section id="experience" class="education">
+    <section id="experience" class="about">
       <h2 class="section-title">Experience</h2>
-
-      <div class="education-grid">
-        <div class="education-box">
-          <div class="education-card experience-wide-card">
-            <h3>Full-stack Web Development Intern</h3>
-            <p>Jyesta Corporate Entity</p>
-            <p style="margin-top:6px;color:var(--muted);">June 2025 – Aug 2025</p>
-
-            <p style="font-size:14px;opacity:0.9;margin-top:16px;line-height:1.6;">
-              During my full-stack internship at Jyesta Corporate Entity, I worked on responsive UI
-              development, API integration, backend logic, and database management. I contributed to
-              real project modules, improved problem-solving skills, and learned to write clean,
-              maintainable code following industry practices.
-            </p>
-
-            <p class="Skills">
-              <strong>Skills:</strong> HTML, CSS, PYTHON, C, C++
-            </p>
-          </div>
-        </div>
+      <div class="about-box">
+        <h3>Full-stack Web Development internship </h3>
+        <span>Jyesta Corporate Entity | June 2025 – Aug 2025</span>
+        <p>
+         During my full-stack internship at Jyesta Corporate Entity, I worked on responsive UI
+             development, API integration, backend logic, and database management.I contributed to
+             real project modules, improved problem-solving skills, and learned to write clean,
+             maintainable code following industry practices.
+        </p>
+        <p><strong>Skills:</strong> HTML, CSS, PYTHON, C, C++</p>
       </div>
     </section>
 
     <!-- CONTACT -->
     <section id="contact" class="about">
-      <h2 class="section-title">Contact Me</h2>
-      <div class="about-box">
-        <p>Email: solankinikita569@gmail.com</p>
-        <p>Phone: 9131563033</p>
-      </div>
-    </section>
+  <h2 class="section-title">Contact Me</h2>
+  <p style="text-align:center;color:#b9bdc2;margin-bottom:20px;">
+    Please fill out the form below to contact me
+  </p>
+
+  <div class="about-box contact-box">
+    <form action="mailto:solankinikita569@gmail.com" method="post" enctype="text/plain">
+
+      <input type="text" name="FullName" placeholder="Full Name" required>
+
+      <input type="email" name="Email" placeholder="Email Address" required>
+
+      <textarea name="Message" placeholder="Message" rows="5" required></textarea>
+
+      <button type="submit" class="btn primary">Send</button>
+
+    </form>
+  </div>
+</section>
 
     <footer class="footer">
       ©️ 2025 Nikita Solanki
