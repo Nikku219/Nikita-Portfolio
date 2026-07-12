@@ -1,148 +1,574 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Nikita Solanki — Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Nikita Solanki | Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
 
-  <!-- NAV -->
-  <header class="top-nav">
-    <div class="nav-inner">
-      <div class="brand">Portfolio</div>
-      <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="resume.pdf" target="_blank">Resume</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
-    </div>
-  </header>
+<!-- ================= NAVBAR ================= -->
 
-  <!-- HERO -->
-  <main id="home">
-    <section class="hero">
-      <div class="hero-left">
-        <h3 class="hello">Hello, I am</h3>
-        <h1 class="name-static">Nikita Solanki</h1>
-        <h2 class="slide-container">
-          <span id="slide-text"></span><span class="cursor">|</span>
-        </h2>
-        <p class="hero-sub">
-          I build modern UI, responsive layouts and smooth web experiences using HTML, CSS and JavaScript.
-        </p>
-        <div class="cta">
-          <a href="mailto:solankinikita569@gmail.com" class="btn primary">Hire Me</a>
-          <a href="#projects" class="btn outline">Projects</a>
-          <a href="resume.pdf" class="btn outline" download>Download CV</a>
-        </div>
-        <div class="socials">
-          <a href="https://www.linkedin.com/in/nikita-solanki-1781a9365" target="_blank">
-            <img class="social-icon" src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" alt="LinkedIn">
-          </a>
-          <a href="mailto:solankinikita569@gmail.com">
-            <img class="social-icon" src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email">
-          </a>
-          <a href="https://github.com/Nikku219/Work" target="_blank">
-            <img class="social-icon" src="https://cdn-icons-png.flaticon.com/512/2111/2111432.png" alt="Github">
-          </a>
-        </div>
-      </div>
+<header class="top-nav">
 
-      <div class="hero-center">
-        <div class="neon-ring" aria-hidden="true">
-          <img src="profile.jpg/image.jpg" alt="Nikita Solanki" class="profile" />
-        </div>
-      </div>
-    </section>
+<div class="nav-inner">
 
-    <!-- CHECK RESUME -->
-    <section id="resume-check" class="resume-section">
-      <h2 class="section-title">
-        <a href="resume.pdf" target="_blank" style="color: #4fe3ff; text-decoration: none;">
-          Check Resume
-        </a>
-      </h2>
-    </section>
+<div class="brand">Portfolio</div>
 
-    <!-- PROJECTS -->
-    <section id="projects" class="projects">
-      <h2 class="section-title">Projects</h2>
-      <div class="project-grid">
-        <div class="project-card">
-          <h3>MediCare App</h3>
-          <p>Medicine management mini-project with clean UI.</p>
-        </div>
-      </div>
-    </section>
+<ul class="nav-links">
 
-    <!-- EDUCATION -->
-    <section id="education" class="education">
-      <h2 class="section-title">Education</h2>
-      <div class="education-grid">
-        <div class="education-card">
-          <h3>MCA (Master of Computer Applications)</h3>
-          <p>Chameli Devi Group of Institute</p>
-          <span>2024–2026</span>
-        </div>
-        <div class="education-card">
-          <h3>B.Sc. (Computer Science)</h3>
-          <p>St.Paul Institution of Professional Studies</p>
-          <p>CGPA: 7.0</p>
-          <span>2020–2024</span>
-        </div>
-      </div>
-    </section>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#experience">Experience</a></li>
+<li><a href="#certifications">Certificates</a></li>
+<li><a href="#contact">Contact</a></li>
+<li><a href="resume.pdf" target="_blank">Resume</a></li>
 
-    <!-- EXPERIENCE -->
-    <section id="experience" class="about">
-      <h2 class="section-title">Experience</h2>
-      <div class="about-box">
-        <h3>Full-stack Web Development internship </h3>
-        <span>Jyesta Corporate Entity | June 2025 – Aug 2025</span>
-        <p>
-         During my full-stack internship at Jyesta Corporate Entity, I worked on responsive UI
-             development, API integration, backend logic, and database management.I contributed to
-             real project modules, improved problem-solving skills, and learned to write clean,
-             maintainable code following industry practices.
-        </p>
-        <p><strong>Skills:</strong> HTML, CSS, PYTHON, C, C++</p>
-      </div>
-    </section>
+</ul>
 
-    <!-- CONTACT -->
-    <section id="contact" class="about">
-  <h2 class="section-title">Contact Me</h2>
-  <p style="text-align:center;color:#b9bdc2;margin-bottom:20px;">
-    Please fill out the form below to contact me
-  </p>
+<button class="nav-toggle">☰</button>
 
-  <div class="about-box contact-box">
-    <form action="mailto:solankinikita569@gmail.com" method="post" enctype="text/plain">
+</div>
 
-      <input type="text" name="FullName" placeholder="Full Name" required>
+</header>
 
-      <input type="email" name="Email" placeholder="Email Address" required>
+<main id="home">
 
-      <textarea name="Message" placeholder="Message" rows="5" required></textarea>
+<!-- ================= HERO ================= -->
 
-      <button type="submit" class="btn primary">Send</button>
+<section class="hero">
 
-    </form>
-  </div>
+<div class="hero-left">
+
+<h3 class="hello">Hello, I am a </h3>
+
+<h1 class="name-static">Nikita Solanki</h1>
+
+<h2 class="slide-container">
+
+<span id="slide-text"></span>
+
+<span class="cursor">|</span>
+
+</h2>
+
+<p class="hero-sub">
+
+Aspiring Frontend Developer with internship experience in Full Stack Web Development. 
+Familiar with HTML, CSS, JavaScript, Python, and MySQL. 
+Interested in building responsive and user-friendly websites while improving my skills and learning new technologies.
+
+</p>
+
+<div class="cta">
+
+<a href="mailto:solankinikita569@gmail.com" class="btn primary">
+
+Hire Me
+
+</a>
+
+<a href="#projects" class="btn outline">
+
+Projects
+
+</a>
+
+<a href="resume.pdf" download class="btn outline">
+
+Download CV
+
+</a>
+
+</div>
+
+<div class="socials">
+
+<a href="https://www.linkedin.com/in/nikita-solanki-1781a9365" target="_blank">
+<i class="fab fa-linkedin"></i>
+</a>
+
+<a href="mailto:solankinikita569@gmail.com">
+<i class="fas fa-envelope"></i>
+</a>
+
+<a href="https://github.com/Nikku219" target="_blank">
+<i class="fab fa-github"></i>
+</a>
+
+</div>
+
+</div>
+
+<div class="hero-center">
+
+<div class="neon-ring">
+
+<img src="image.jpg/profile.jpg" alt="Nikita Solanki" class="profile">
+
+</div>
+
+</div>
+
 </section>
 
-    <footer class="footer">
-      ©️ 2025 Nikita Solanki
-    </footer>
-  </main>
+<!-- ================= ABOUT ================= -->
 
-  <script src="script.js"></script>
+<section id="about" class="about">
+
+<h2 class="section-title">About Me</h2>
+
+<div class="about-box">
+
+<p>
+
+Motivated MCA graduate with internship experience in Full Stack Web Development.
+Passionate about Frontend Development and building responsive, user-friendly websites using HTML, CSS, and JavaScript. 
+Eager to learn new technologies and contribute to real-world projects.
+
+</p>
+
+</div>
+
+</section>
+
+<!-- ================= QUICK STATS ================= -->
+
+<section class="projects">
+
+<h2 class="section-title">Quick Stats</h2>
+
+<div class="project-grid">
+
+<div class="project-card">
+<h3>2+</h3>
+<p>Projects Completed</p>
+</div>
+
+<div class="project-card">
+<h3>1</h3>
+<p>Internship Completed</p>
+</div>
+
+<div class="project-card">
+<h3>5+</h3>
+<p>Certificates</p>
+</div>
+
+<div class="project-card">
+<h3>Fresher</h3>
+<p>Frontend Developer</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= SKILLS ================= -->
+
+<section id="skills" class="projects">
+
+<h2 class="section-title">Technical Skills</h2>
+
+<div class="project-grid">
+
+<div class="project-card">
+
+<h3>Programming</h3>
+
+<p>
+
+Python <br>
+Java (Basic) <br>
+JavaScript
+
+</p>
+
+</div>
+
+<div class="project-card">
+
+<h3>Frontend</h3>
+
+<p>
+
+HTML <br>
+CSS <br>
+JavaScript <br>
+Responsive Design
+
+</p>
+
+</div>
+
+<div class="project-card">
+
+<h3>Database & Tools</h3>
+
+<p>
+
+MySQL <br>
+Git & GitHub <br>
+VS Code <br>
+MS Office
+
+</p>
+
+</div>
+
+<div class="project-card">
+
+<h3>Core Concepts</h3>
+
+<p>
+
+OOPs <br>
+DBMS <br>
+Basic DSA <br>
+Problem Solving
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= PROJECTS ================= -->
+
+<section id="projects" class="projects">
+
+<h2 class="section-title">Projects</h2>
+
+<div class="project-grid">
+
+<!-- Project 1 -->
+
+<div class="project-card">
+
+<h3>TPO Campus Placement Analytics & Predictor</h3>
+
+<p>
+Developed a Placement Management System to manage student placement activities and placement records with a responsive user interface.
+</p>
+
+<p>
+<strong>Technology:</strong>
+HTML, CSS, JavaScript, Python, MySQL
+</p>
+
+<div class="project-buttons">
+
+<a href="#" class="btn primary">
+🌐 Live Demo
+</a>
+
+<a href="https://github.com/Nikku219" target="_blank" class="btn outline">
+💻 GitHub
+</a>
+
+</div>
+
+</div>
+
+<!-- Project 2 -->
+
+<div class="project-card">
+
+<h3>Personal Portfolio Website</h3>
+
+<p>
+Designed and developed a responsive personal portfolio website to showcase my skills, projects, education, internship experience and certifications.
+</p>
+
+<p>
+<strong>Technology:</strong>
+HTML, CSS, JavaScript
+</p>
+
+<div class="project-buttons">
+
+<a href="#" class="btn primary">
+🌐 Live Demo
+</a>
+
+<a href="https://github.com/Nikku219" target="_blank" class="btn outline">
+💻 GitHub
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= EDUCATION ================= -->
+
+<section id="education" class="education">
+
+<h2 class="section-title">Education</h2>
+
+<div class="education-grid">
+
+<div class="education-card">
+
+<h3>Master of Computer Applications (MCA)</h3>
+
+<p>Chameli Devi Group of Institutions, Indore, Madhya Pradesh</p>
+
+<p>CGPA : 7.5</p>
+
+<p>2024 – 2026</p>
+
+</div>
+
+<div class="education-card">
+
+<h3>B.Sc. Computer Science</h3>
+
+<p>St. Paul Institute of Professional Studies, Indore, Madhya Pradesh</p>
+
+<p>CGPA : 7.0</p>
+
+<p>2020 – 2024</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= EXPERIENCE ================= -->
+
+<section id="experience" class="about">
+
+<h2 class="section-title">Experience</h2>
+
+<div class="about-box">
+
+<h3>Full Stack Web Development Internship</h3>
+
+<span>Jyesta Corporate Entity | June 2025 – August 2025</span>
+
+<p>
+
+Worked on responsive web applications using HTML, CSS and JavaScript.
+Assisted in frontend development, testing and debugging.
+Collaborated with team members to improve website performance and user experience.
+
+</p>
+
+<p>
+
+<strong>Skills:</strong>
+
+HTML, CSS, JavaScript, Python, MySQL, GitHub
+
+</p>
+
+</div>
+
+</section>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Nikita Solanki | Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- ================= CERTIFICATIONS ================= -->
+
+<section id="certifications" class="projects">
+
+    <h2 class="section-title">Certifications</h2>
+
+    <div class="project-grid">
+
+        <!-- 1 -->
+        <div class="project-card">
+            <h3><i class="fas fa-certificate"></i> Python Programming Training</h3>
+            <p><strong>Organization:</strong> Edupyramids (SINE IIT Bombay)</p>
+            <p><strong>Domain:</strong> Python Programming</p>
+        </div>
+
+        <!-- 2 -->
+        <div class="project-card">
+            <h3><i class="fas fa-certificate"></i> Red Hat OpenShift</h3>
+            <p><strong>Organization:</strong> Red Hat Academy</p>
+            <p><strong>Domain:</strong> OpenShift Application Development</p>
+        </div>
+
+        <!-- 3 -->
+        <div class="project-card">
+            <h3><i class="fas fa-certificate"></i> Solar Technology Based Entrepreneurship Development Programme (TEDP)</h3>
+            <p><strong>Organization:</strong> Chameli Devi Group of Institutions (DST Sponsored)</p>
+            <p><strong>Duration:</strong> April 2026 – June 2026</p>
+        </div>
+
+        <!-- 4 -->
+        <div class="project-card">
+            <h3><i class="fas fa-certificate"></i> Entrepreneurship-cum-Skill Development Programme (E-SDP)</h3>
+            <p><strong>Organization:</strong> MSME Technology Centre, Indore</p>
+            <p><strong>Domain:</strong> Information Technology</p>
+            <p><strong>Duration:</strong> Oct 2025 – Nov 2025</p>
+        </div>
+
+        <!-- 5 -->
+        <div class="project-card">
+            <img src="assets/certificates/national-conference-certificate.jpg"
+                 alt="National Conference Certificate"
+                 class="certificate-img">
+
+            <h3><i class="fas fa-award"></i> National Conference Participation</h3>
+
+            <p><strong>Organization:</strong> Chameli Devi Group of Institutions, Indore</p>
+            <p><strong>Conference:</strong> Intelligence System: The Next Era of Computing</p>
+            <p><strong>Research Paper:</strong> Performance Evaluation of Public and Private Cloud: A Comparative Study</p>
+            <p><strong>Date:</strong> 08 March 2025</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= TECH STACK ================= -->
+
+<section id="tech" class="projects">
+
+    <h2 class="section-title">Tech Stack</h2>
+
+    <div class="project-grid">
+
+        <div class="project-card">
+            <i class="fab fa-html5" style="font-size:60px;color:#E34F26;"></i>
+            <h3>HTML5</h3>
+        </div>
+
+        <div class="project-card">
+            <i class="fab fa-css3-alt" style="font-size:60px;color:#1572B6;"></i>
+            <h3>CSS3</h3>
+        </div>
+
+        <div class="project-card">
+            <i class="fab fa-js-square" style="font-size:60px;color:#F7DF1E;"></i>
+            <h3>JavaScript</h3>
+        </div>
+
+        <div class="project-card">
+            <i class="fab fa-python" style="font-size:60px;color:#3776AB;"></i>
+            <h3>Python</h3>
+        </div>
+
+        <div class="project-card">
+            <i class="fas fa-database" style="font-size:60px;color:#4DB33D;"></i>
+            <h3>MySQL</h3>
+        </div>
+
+        <div class="project-card">
+            <i class="fab fa-github" style="font-size:60px;"></i>
+            <h3>GitHub</h3>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="about">
+
+<h2 class="section-title">Contact Me</h2>
+
+<div class="about-box contact-box">
+
+<form action="mailto:solankinikita569@gmail.com" method="post" enctype="text/plain">
+
+<input type="text" placeholder="Your Name" required>
+
+<input type="email" placeholder="Your Email" required>
+
+<textarea rows="5" placeholder="Your Message" required></textarea>
+
+<button type="submit" class="btn primary">
+Send Message
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+<h2>Nikita Solanki</h2>
+
+<p>Frontend Developer | MCA Graduate</p>
+
+<div class="socials">
+
+<a href="mailto:solankinikita569@gmail.com">
+<i class="fa-solid fa-envelope"></i>
+</a>
+
+<a href="https://github.com/Nikku219" target="_blank">
+<i class="fa-brands fa-github"></i>
+</a>
+
+<a href="https://www.linkedin.com/in/nikita-solanki-1781a9365" target="_blank">
+<i class="fa-brands fa-linkedin"></i>
+</a>
+
+</div>
+
+<p>📧 solankinikita569@gmail.com</p>
+
+<p>💻 github.com/Nikku219</p>
+
+<p>🔗 linkedin.com/in/nikita-solanki-1781a9365</p>
+
+<hr>
+
+<p>© 2026 Nikita Solanki | All Rights Reserved</p>
+
+</footer>
+
+</main>
+
+<script src="script.js"></script>
+
 </body>
 </html>
-
