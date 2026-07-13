@@ -309,6 +309,19 @@ section{
     max-width:900px;
     margin:auto;
 }
+/* Experience Heading */
+.about-box h3{
+    color: var(--accent);
+    margin-bottom: 12px;
+}
+
+/* Company & Duration */
+.about-box span{
+    display: block;
+    color: var(--muted);
+    margin-bottom: 15px;
+    font-size: 15px;
+}
 
 /* ================= PROJECT BUTTONS ================= */
 
