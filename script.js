@@ -1,6 +1,4 @@
-// ===============================
-// NAVBAR TOGGLE
-// ===============================
+// NAVBAR TOGGLE // 
 
 const toggle = document.querySelector(".nav-toggle");
 const navLinks = document.querySelector(".nav-links");
@@ -11,15 +9,12 @@ if (toggle && navLinks) {
     });
 }
 
-// ===============================
-// TYPEWRITER EFFECT
-// ===============================
+// TYPEWRITER EFFECT // 
 
 const slideText = document.getElementById("slide-text");
 
 const roles = [
     "Aspiring Frontend Developer",
-    "Web Developer learner",
     "MCA Graduate"
 ];
 
@@ -57,9 +52,7 @@ function typeWriter() {
 
 typeWriter();
 
-// ===============================
-// ACTIVE NAVBAR
-// ===============================
+// ACTIVE NAVBAR // 
 
 const sections = document.querySelectorAll("section");
 const navItems = document.querySelectorAll(".nav-links a");
@@ -90,9 +83,7 @@ window.addEventListener("scroll", () => {
 
 });
 
-// ===============================
-// SCROLL REVEAL
-// ===============================
+// SCROLL REVEAL // 
 
 const cards = document.querySelectorAll(
     ".project-card,.education-card,.about-box"
@@ -120,9 +111,7 @@ function revealCards() {
 window.addEventListener("scroll", revealCards);
 revealCards();
 
-// ===============================
-// BUTTON HOVER
-// ===============================
+// BUTTON HOVER // 
 
 document.querySelectorAll(".btn").forEach(btn => {
 
@@ -136,9 +125,7 @@ document.querySelectorAll(".btn").forEach(btn => {
 
 });
 
-// ===============================
-// SMOOTH SCROLL
-// ===============================
+// SMOOTH SCROLL // 
 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
@@ -162,9 +149,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 });
 
-// ===============================
-// CURRENT YEAR
-// ===============================
+// CURRENT YEAR // 
 
 const year = document.querySelector(".footer p:last-child");
 
@@ -173,9 +158,7 @@ if (year) {
         `© ${new Date().getFullYear()} Nikita Solanki | All Rights Reserved`;
 }
 
-// ===============================
-// MOBILE MENU CLOSE AFTER CLICK
-// ===============================
+// MOBILE MENU CLOSE AFTER CLICK // 
 
 document.querySelectorAll(".nav-links a").forEach(link => {
 
@@ -191,9 +174,7 @@ document.querySelectorAll(".nav-links a").forEach(link => {
 
 });
 
-// ===============================
-// SOCIAL ICON HOVER
-// ===============================
+// SOCIAL ICON HOVER // 
 
 document.querySelectorAll(".socials a").forEach(icon => {
 
@@ -213,8 +194,7 @@ document.querySelectorAll(".socials a").forEach(icon => {
 
 });
 
-// ===============================
-// CONSOLE MESSAGE
-// ===============================
+// CONSOLE MESSAGE // 
 
 console.log("Portfolio Loaded Successfully 🚀");
+
