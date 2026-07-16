@@ -146,7 +146,7 @@ body{
     border-radius:8px;
     text-decoration:none;
     font-weight:600;
-    transition:.35s;
+    transition: all .3s ease;
 }
 
 .btn.primary{
@@ -240,6 +240,7 @@ body{
     width:395px;
     height:395px;
     object-fit:cover;
+    object-position:center;
     border-radius:50%;
     border:5px solid #fff;
 }
@@ -276,6 +277,7 @@ section{
     padding:25px;
     backdrop-filter:blur(12px);
     transition:.35s;
+    height:100%;
 
 }
 
@@ -310,6 +312,7 @@ section{
     margin:auto;
 }
 /* Experience Heading */
+
 .about-box h3{
     color: var(--accent);
     margin-bottom: 12px;
@@ -352,6 +355,14 @@ section{
 
 #tech .project-card h3{
     margin-top:15px;
+}
+
+#tech .project-card i{
+    transition:.4s;
+}
+
+#tech .project-card:hover i{
+    transform:scale(1.15);
 }
 
 /* ================= CONTACT ================= */
@@ -505,5 +516,4 @@ section{
 }
 
 }
-
 
